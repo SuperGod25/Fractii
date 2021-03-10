@@ -1,0 +1,19 @@
+C:\Users\filip\source\repos\Fractii - new\bin\Debug\Fractii - new.exe.config
+C:\Users\filip\source\repos\Fractii - new\bin\Debug\Fractii - new.exe
+C:\Users\filip\source\repos\Fractii - new\bin\Debug\Fractii - new.pdb
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii - new.csprojAssemblyReference.cache
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.Form1.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.Properties.Resources.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii - new.csproj.GenerateResource.cache
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii - new.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii - new.exe
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii - new.pdb
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.Meniu.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.Adunare.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.Impartire.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.Inmultire.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.Scadere.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.exercitiiAdun.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.exercitiiImpart.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.exercitiiInmult.resources
+C:\Users\filip\source\repos\Fractii - new\obj\Debug\Fractii___new.exercitiiScad.resources

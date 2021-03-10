@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DA79D6F-E211-46F3-8CAB-EDB9C8AF9A0F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Fractii___new</RootNamespace>
+    <AssemblyName>Fractii - new</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adunare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adunare.Designer.cs">
+      <DependentUpon>Adunare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercitiiAdun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercitiiAdun.Designer.cs">
+      <DependentUpon>exercitiiAdun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercitiiImpart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercitiiImpart.Designer.cs">
+      <DependentUpon>exercitiiImpart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercitiiInmult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercitiiInmult.Designer.cs">
+      <DependentUpon>exercitiiInmult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exercitiiScad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exercitiiScad.Designer.cs">
+      <DependentUpon>exercitiiScad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impartire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impartire.Designer.cs">
+      <DependentUpon>Impartire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inmultire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inmultire.Designer.cs">
+      <DependentUpon>Inmultire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meniu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meniu.Designer.cs">
+      <DependentUpon>Meniu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scadere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scadere.Designer.cs">
+      <DependentUpon>Scadere.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Adunare.resx">
+      <DependentUpon>Adunare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercitiiAdun.resx">
+      <DependentUpon>exercitiiAdun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercitiiImpart.resx">
+      <DependentUpon>exercitiiImpart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercitiiInmult.resx">
+      <DependentUpon>exercitiiInmult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exercitiiScad.resx">
+      <DependentUpon>exercitiiScad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impartire.resx">
+      <DependentUpon>Impartire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inmultire.resx">
+      <DependentUpon>Inmultire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meniu.resx">
+      <DependentUpon>Meniu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Scadere.resx">
+      <DependentUpon>Scadere.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
